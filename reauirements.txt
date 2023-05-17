@@ -1,3 +1,4 @@
 import numpy as np
 import pickle
 import streamlit as st
+scikit-learn==1.0.2
