@@ -46,6 +46,7 @@ def main():
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
     st.success(diagnosis)
     
-    
+    if __name__=='__main__':
+        main()
     
     
