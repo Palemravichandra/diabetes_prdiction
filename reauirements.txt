@@ -1,4 +1,4 @@
-import numpy as np
-import pickle
-import streamlit as st
+ numpy 
+ pickle
+ streamlit 
 scikit-learn==1.0.2
