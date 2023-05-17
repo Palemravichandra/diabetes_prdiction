@@ -1,6 +1,7 @@
 import numpy as np
 import pickle
 import streamlit as st
+from sklearn.model_selection import train_test_split
 
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
