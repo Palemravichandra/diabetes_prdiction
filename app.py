@@ -4,7 +4,9 @@ import streamlit as st
 from sklearn.model_selection import train_test_split
 
 # loading the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+# loading the saved model
+with open(r"trained_model.sav", 'rb') as file:
+    loaded_model = pickle.load(file)
 
 # creating a function for Prediction
 def diabetes_prediction(input_data):
