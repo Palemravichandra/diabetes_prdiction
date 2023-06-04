@@ -37,15 +37,15 @@ def main():
     # getting the input data from the user
     col1,col2=st.columns(2)
     with col1:
-        Pregnancies = st.text_input('Number of Pregnancies')
-        Glucose = st.text_input('Glucose Level')
-        BloodPressure = st.text_input('Blood Pressure value')
-        SkinThickness = st.text_input('Skin Thickness value')
+        Pregnancies = st.text_input(':blue[Number of Pregnancies]')
+        Glucose = st.text_input(':blue[Glucose Level]')
+        BloodPressure = st.text_input(':blue[Blood Pressure value]')
+        SkinThickness = st.text_input(':blue[Skin Thickness value]')
     with col2:
-        Insulin = st.text_input('Insulin Level')
-        BMI = st.text_input('BMI value')
-        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
-        Age = st.text_input('Age of the Person')
+        Insulin = st.text_input(':blue[Insulin Level]')
+        BMI = st.text_input(':blue[BMI value]')
+        DiabetesPedigreeFunction = st.text_input(':blue[Diabetes Pedigree Function value]')
+        Age = st.text_input(':blue[Age of the Person]')
     
     
     # code for Prediction
